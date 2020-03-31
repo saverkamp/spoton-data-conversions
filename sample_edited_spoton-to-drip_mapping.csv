@@ -1,0 +1,89 @@
+SpotOn_field,Drip_field,Drip_value
+,date,
+,temperature.value,
+,temperature.exclude,
+,temperature.time,
+,temperature.note,
+FlowSpotting,bleeding.value,0=spotting
+FlowLight,bleeding.value,1=light
+FlowMedium,bleeding.value,2=medium
+FlowHeavy,bleeding.value,3=heavy
+FlowPeriod,bleeding.exclude,boolean
+,mucus.feeling,0=dry
+,mucus.feeling,1=nothing
+,mucus.feeling,2=wet
+,mucus.feeling,3=slippery
+,mucus.texture,0=nothing
+,mucus.texture,1=creamy
+,mucus.texture,2=egg white
+,mucus.value,
+,mucus.exclude,boolean
+,cervix.opening,0=closed
+,cervix.opening,1=medium
+,cervix.opening,2=open
+,cervix.firmness,0=hard
+,cervix.firmness,0=soft
+,cervix.position,0=low
+,cervix.position,1=medium
+,cervix.position,2=high
+,cervix.exclude,boolean
+,note.value,text
+,desire.value,0=low
+,desire.value,1=medium
+MoodFrisky,desire.value,2=high
+,sex.solo,boolean
+ActionHadSex,sex.partner,boolean
+,sex.condom,boolean
+,sex.pill,boolean
+,sex.iud,boolean
+,sex.patch,boolean
+,sex.ring,boolean
+,sex.implant,boolean
+,sex.diaphragm,boolean
+,sex.none,boolean
+,sex.other,boolean
+,sex.note,text
+BodyCramps,pain.cramps,boolean
+,pain.ovulationPain,boolean
+BodyHeadache,pain.headache,boolean
+E-Back pain,pain.backache,boolean
+BodyNausea,pain.nausea,boolean
+BodyTenderBreasts,pain.tenderBreasts,boolean
+,pain.migraine,boolean
+BodyBloating,pain.other,boolean
+BodyDizziness,pain.other,boolean
+BodyStomachAche,pain.other,boolean
+E-Abdominal pain,pain.note,Abdominal pain
+,pain.note,text
+MoodHappy,mood.happy,boolean
+MoodSad,mood.sad,boolean
+MoodStressed,mood.stressed,boolean
+,mood.balanced,boolean
+MoodFine,mood.fine,boolean
+E-Anxious,mood.anxious,boolean
+MoodFabulous,mood.energetic,boolean
+BodyFatigue,mood.fatigue,boolean
+MoodAngry,mood.angry,boolean
+MoodBlah,mood.other,boolean
+MoodIrritable,mood.other,boolean
+,mood.note,text
+ActionAteHealthy,note.value,ate healthy
+ActionAteJunk,note.value,ate junk
+ActionCouldntSleep,note.value,couldn't sleep
+ActionExercised,note.value,exercised
+ActionSick,note.value,sick
+ActionSleptWell,note.value,slept well
+ActionTraveled,note.value,traveled
+BodyAcne,note.value,body acne
+MissedMethodFertile,note.value,missed method--fertile
+RenewableHormoneFreeIgnored,note.value,placebo ignored
+RenewableMissed,note.value,pill missed
+RenewableMissedAcknowledged,note.value,pill missed
+RenewablePatchFellOff,note.value,patch fell off
+RenewableRingIn,note.value,ring in
+RenewableRingOut,note.value,ring out
+RenewableTaken,note.value,pill taken
+ShotLateAcknowledged,note.value,shot late
+E-Drank alcohol,note.value,alcohol
+E-Side discomfort,pain.note,side discomfort
+E-Clotting,note.value,clotting
